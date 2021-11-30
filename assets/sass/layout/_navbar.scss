@@ -1,0 +1,41 @@
+.navbar{
+    width: 100%;
+    height: 5rem;
+    background-color: white;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar_logo{
+    font-family: $Old-Standard;
+    background-color: black;
+    color: white;
+    width: auto;
+    max-width: 30%;
+    height: auto;
+    padding: 1rem 2rem;
+    float: left;
+}
+
+.navbar_menu{
+    font-family: $Raleway;
+    font-weight: $bold;
+    background-color: white;
+    color: black;
+    width: auto;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: 5%;
+    text-decoration: none;
+    float: right;
+}
+
+.navbar_menu li{
+    display: inline-block;
+    padding: 2rem 1rem;
+}
+
+.navbar_menu a{
+    text-decoration: none;
+}
